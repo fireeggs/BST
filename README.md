@@ -17,7 +17,7 @@ BST is a collection of nodes arranged in a way where they maintain BST propertie
 
 ## 2. Node
 Define a node class having some data, references to it's left, right child and parent nodes.
-```
+```python
 class BTNode:
     '''A generic binary tree node that keeps a value and pointers to
     a left child, right child and parent.'''
@@ -35,7 +35,7 @@ class BTNode:
 
 ## 3. Binary Search Tree
 Define a BST class having a root node. 
-```
+```python
 class BSTree:
     '''A Binary Search Tree that conforms to the BST property at every step.
     The BST property states that for every node with value k, its left child
@@ -53,7 +53,7 @@ class BSTree:
 ## 4. Test BST
 test_bst.py is built to verify all functions from bst.py such as search, insert, delete, pre-order, in-order, post-order traversal, etc. Generally, it covers empty tree, simple tree, right and left tree, huge tree test case
 
-```
+```python
 if __name__ == '__main__':
     # go!
     runner = unittest.TextTestRunner()
