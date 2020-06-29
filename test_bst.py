@@ -6,7 +6,7 @@
     test_bst.py
 
     Created by Seungkyu Kim on Apr 23, 2015
-    Copyright © 2015 Seungky Kim. All rights reserved. 
+    Copyright 2015 Seungky Kim. All rights reserved. 
 
 '''
 

@@ -9,9 +9,7 @@
     bst.py
 
     Created by Seungkyu Kim on Apr 23, 2015
-    Copyright © 2015 Seungky Kim. All rights reserved. 
-    
-'''
+    Copyright 2015 Seungky Kim. All rights reserved. '''
 
 
 class BTNode:
@@ -322,9 +320,9 @@ def in_order_successor(node):
 if __name__ == '__main__':
 
     t = BSTree()
-    #for i in [5, 6, 7, 8]:
-        #t.insert(i)
+    for i in [5, 6, 7, 8]:
+        t.insert(i)
     t.print_tree()
     t.height()
-    #print(in_order_predecessor(t.root))
-    #print(in_order_successor(t.root))
+    print(in_order_predecessor(t.root))
+    print(in_order_successor(t.root))
